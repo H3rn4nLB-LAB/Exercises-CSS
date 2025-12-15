@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Classic Horror Authors - Edgar Allan Poe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="header">
+        <h1>Classic Horror Authors - Edgar Allan Poe</h1>
+    </div>
+
+    <div id="navigation">
+        <a href="poe.html">Edgar Allan Poe</a> |
+        <a href="shelley.html">Mary Shelley</a> |
+        <a href="stoker.html">Bram Stoker</a>
+    </div>
+
+    <div id="content">
+        <h2>Edgar Allan Poe</h2>
+        <p>
+            Edgar Allan Poe was born in Boston on January 19, 1809, and died on
+            October 7, 1849. He was an American writer, poet, editor and literary
+            critic. Poe is best known for his poetry and short stories,
+            particularly his tales of mystery and the macabre.
+        </p>
+        <p>
+            He is widely regarded as a central figure of Romanticism in the United
+            States and of American literature as a whole.
+        </p>
+    </div>
+
+    <div id="rightpanel">
+        <h3>Stories by Poe</h3>
+        <ul>
+            <li>The Tell-Tale Heart</li>
+            <li>The Black Cat</li>
+            <li>The Fall of the House of Usher</li>
+            <li>The Raven</li>
+        </ul>
+
+        <h3>Comments / Suggestions</h3>
+        <p>
+            Please <a href="mailto:info@example.com">let us know</a> your thoughts
+            about this site.
+        </p>
+    </div>
+
+    <div id="footer">
+        © 2025 Classic Horror Authors Website
+    </div>
+
+</body>
+</html>
+
+/* Overall page */
+body {
+    background-color: #666666;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 90%;
+}
+
+/* All divs */
+div {
+    margin-top: 6px;
+    padding: 6px;
+    border: 1px solid black;
+}
+
+/* Header */
+#header {
+    background-color: #990000;
+    width: 779px;
+    color: white;
+}
+
+/* Navigation */
+#navigation {
+    background-color: #CCCCCC;
+    width: 779px;
+}
+
+/* Content */
+#content {
+    background-color: #999999;
+    width: 464px;
+    float: left;
+    margin-bottom: 6px;
+}
+
+/* Right panel */
+#rightpanel {
+    background-color: #999999;
+    width: 295px;
+    margin-left: 484px;
+}
+
+/* Footer */
+#footer {
+    background-color: #CCCCCC;
+    width: 779px;
+    text-align: center;
+    clear: left;
+}
