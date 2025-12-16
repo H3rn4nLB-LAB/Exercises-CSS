@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Software Libre</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .escritorio {
+      position: relative;
+      width: 900px;
+      height: 500px;
+      margin: auto;
+      background-color: #fff;
+      border: 2px solid #ccc;
+      padding: 10px;
+    }
+
+    .icono {
+      position: absolute; 
+      width: 120px;
+      text-align: center;
+      padding: 10px;
+      background-color: #e6ffe6;
+      border: 1px solid #66cc66;
+      box-sizing: border-box;
+      font-size: 14px;
+      cursor: default;
+    }
+
+
+    .icono1 { top: 20px; left: 20px; }
+    .icono2 { top: 20px; left: 160px; }
+    .icono3 { top: 20px; left: 300px; }
+    .icono4 { top: 20px; left: 440px; }
+    .icono5 { top: 20px; left: 580px; }
+    .icono6 { top: 150px; left: 20px; }
+    .icono7 { top: 150px; left: 160px; }
+    .icono8 { top: 150px; left: 300px; }
+
+  </style>
+</head>
+
+<body>
+
+  <h1>Escritorio de Software Libre</h1>
+
+  <div class="escritorio">
+    <div class="icono icono1">7-Zip</div>
+    <div class="icono icono2">Audacity</div>
+    <div class="icono icono3">GIMP</div>
+    <div class="icono icono4">LibreOffice</div>
+    <div class="icono icono5">VLC</div>
+    <div class="icono icono6">Inkscape</div>
+    <div class="icono icono7">Firefox</div>
+    <div class="icono icono8">Blender</div>
+  </div>
+
+</body>
+</html>
