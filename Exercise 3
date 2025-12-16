@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercise 3 - Background</title>
+    <link rel="stylesheet" href="css/background.css">
+</head>
+<body>
+
+<div class="content">
+    <h1>CSS Background Exercise</h1>
+    <p>
+        This page shows a background image repeated only on the Y axis.
+    </p>
+    <p>
+        The image stays fixed, there is no scroll, and the text appears
+        on the right side of the image.
+    </p>
+    <p>
+        This solution is based on the W3Schools background example.
+    </p>
+</div>
+
+</body>
+</html>
+
+html, body {
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+
+
+body {
+    background-image: url("../images/background.jpg");
+    background-repeat: repeat-y;        /* repetir solo eje Y */
+    background-position: left top;       /* imagen a la izquierda */
+    background-attachment: fixed;        /* fondo fijo */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.content {
+    margin-left: 220px; /* espacio reservado para la imagen */
+    padding: 20px;
+    color: black;
+}
