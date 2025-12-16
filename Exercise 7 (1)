@@ -32,7 +32,6 @@
       text-align: justify;
     }
 
-    /* Letra capital flotante */
     p::first-letter {
       float: left;
       font-size: 3em;
