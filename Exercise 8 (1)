@@ -36,7 +36,7 @@
       box-sizing: border-box;
     }
 
-    /* Posiciones de cada ley */
+    
     .ley1 { top: 20px; left: 20px; }
     .ley2 { top: 20px; left: 260px; }
     .ley3 { top: 20px; left: 500px; }
